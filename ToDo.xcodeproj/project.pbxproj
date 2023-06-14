@@ -18,6 +18,7 @@
 		22B56C4B275FCA8B000252FE /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B56C4A275FCA8B000252FE /* RealmManager.swift */; };
 		22B56C4D275FD08B000252FE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B56C4C275FD08B000252FE /* Task.swift */; };
 		22B56C4F275FDBE8000252FE /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B56C4E275FDBE8000252FE /* AddTaskView.swift */; };
+		FB78A6D32A39890300E2E5A8 /* UpdateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78A6D22A39890300E2E5A8 /* UpdateTaskView.swift */; };
 		FD28BB582A39150E00A0EF96 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28BB572A39150E00A0EF96 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		22B56C4A275FCA8B000252FE /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		22B56C4C275FD08B000252FE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		22B56C4E275FDBE8000252FE /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		FB78A6D22A39890300E2E5A8 /* UpdateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskView.swift; sourceTree = "<group>"; };
 		FD28BB572A39150E00A0EF96 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 				2281DDF3275EB3DA002E3F62 /* ContentView.swift */,
 				22768D0B275FABB300D6497B /* TasksView.swift */,
 				22B56C4E275FDBE8000252FE /* AddTaskView.swift */,
+				FB78A6D22A39890300E2E5A8 /* UpdateTaskView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				2281DDF2275EB3DA002E3F62 /* ToDoApp.swift in Sources */,
 				FD28BB582A39150E00A0EF96 /* TaskViewModel.swift in Sources */,
 				22768D0E275FB26D00D6497B /* TaskRowView.swift in Sources */,
+				FB78A6D32A39890300E2E5A8 /* UpdateTaskView.swift in Sources */,
 				22B56C4B275FCA8B000252FE /* RealmManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

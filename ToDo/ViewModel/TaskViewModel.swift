@@ -46,4 +46,10 @@ class TaskViewModel: ObservableObject {
             task.isCompleted.toggle()
         }
     }
+    
+    func updateTask(_ name: String, task: Task) {
+        RealmManager.shared.updateObject {
+            task.name = name
+        }
+    }
 }
